@@ -1,0 +1,103 @@
+/*@import url(http://fonts.googleapis.com/css?family=Oswald);*/
+body {
+  background: #E6E6FA;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+}
+.container {/*отступ от верха*/
+  margin: 1px 0;
+  text-align: center;
+  width: 100%;
+}
+.navbar {
+  width: 1020px;
+  height: 50px;
+  background: #8FBAD6;
+  margin: 0px 1px 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid #778899;
+  border-left: 1px solid #778899;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  display: inline;
+  float: left;
+  width: 127px;
+  height: 50px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #999999;
+  line-height: 50px;
+  border-right: 1px solid #778899;
+  border-left: 1px solid #000000;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li a {
+  width: 125px;
+  height: 100px;
+  display: inline-block;
+}
+.navbar ul li:first-child {
+  border-left: none;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+.navbar ul li:last-child {
+  border-right: none;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+/*.navbar .hover {
+  background: #8FBAD6;
+  color: #0E3D5C;
+  display: block;
+}*/
+.navbar.small {
+  height: 33.333333333333336px;
+}
+.navbar.small ul li {
+  height: 33.333333333333336px;
+  line-height: 33.333333333333336px;
+}
+.navbar.toolbar {
+  width: 180px;
+  height: 33.333333333333336px;
+}
+.navbar.toolbar ul li {
+  height: 33.333333333333336px;
+  line-height: 33.333333333333336px;
+}
+a {/*цвет текста*/
+  color: #0E3D5C;
+  text-decoration: none;
+}
+a:hover {/*цвет подсветки*/
+  color: #F6FCFC;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #909090;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: uppercase !important;
+}

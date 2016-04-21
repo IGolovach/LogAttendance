@@ -1,0 +1,70 @@
+{% extends "teachers/teachers-base.html" %}
+
+{% block headcss %}
+{% parent %}
+{% endblock headcss %}
+{% block headjavascript %}{% endblock headjavascript %}
+{% block header %}
+<table background="../images/37.jpg"  width=100% >
+<tr>
+<td valign="bottom"><p><a href="http://www.kpispu.info"><img src="../images/spu.png" alt="" height="90"></a></p></td>
+<td width=20% ></td>
+<td><img src="../images/main_text.png" alt="" height="80"></td>
+<td width="300px">
+<div style="text-align: right;">
+  <div style="display: inline-block;"><br><font color="#00008B" face="Century Gothic">
+  <strong><i>
+  <script language="javascript" type="text/javascript"><!--
+var d = new Date();
+
+var day=new Array("Воскресенье","Понедельник","Вторник",
+"Среда","Четверг","Пятница","Суббота");
+
+var month=new Array("января","февраля","марта","апреля","мая","июня",
+"июля","августа","сентября","октября","ноября","декабря");
+
+document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
++ " " + d.getFullYear() + " г.");
+//--></script></i>
+</strong></font>
+</div></div></td>
+</tr>
+</table>
+{% endblock header %}
+{% block content %}
+<div align="center">
+<span class="loginerr">{{loginError}}</span>
+<form action="login.php" method="post">
+<input type="hidden" name="action" value="login" />
+  <table id="rounded-corner" style="width:auto">
+    <!--thead-->
+    <tr>
+      <th class="rounded-left">&nbsp;</th>
+      <th colspan="2">Авторизация преподавателя</th>
+      <th class="rounded-right">&nbsp;</th>
+    </tr>
+    <!--/thead-->
+    <tr>
+      <td>&nbsp;</td>
+      <td>Логин</td>
+      <td><input type="login" name="login" value="" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Пароль</td>
+      <td><input type="password" name="passwd" value="" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <!--tfoot-->
+    <tr>
+      <td class="rounded-foot-left">&nbsp;</td>
+      <td colspan="2" align="center"><input type="submit" value="Войти" /></td>
+      <td class="rounded-foot-right">&nbsp;</td>
+    </tr>
+    <!--/tfoot-->
+</table>
+</form>
+</div>
+{% endblock content %}
+{% block footer %}{% endblock footer %}

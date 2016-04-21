@@ -1,0 +1,251 @@
+.grade_special {
+	 color: #FFFFF0;
+	 font-weight: bold;
+}
+
+textarea.error, select.error, input.error {
+	border:1px dotted red;
+}
+
+span.error, label.error {
+	font-size:0.8em;
+	float: none; 
+	color: #FFFFF0; 
+	padding-left: .5em; 
+	vertical-align: top; 
+}
+
+.loading {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -8px;
+		margin-left: -8px;
+}
+
+.dbResult {
+	background:none repeat scroll 0 0 #FFCCCC;
+	border-bottom:2px solid #996699;
+	border-top:2px solid #996699;
+	color:black;
+	display:block;
+	font:small-caption;
+	font-size:10pt;
+	margin:5px;
+	padding:5px;
+}
+
+.loginerr {
+	color:#FFFFF0;
+	font:small-caption;
+}
+
+.ui-widget { 
+	font-family: Arial,Helvetica,sans-serif; 
+	font-size: 0.8em; 
+}
+
+.button/*кнопка выслать*/
+{
+	background: #F5F5F5;
+	border-color: #8B8989 #87A03D #87A03D #C5D6A0;
+	border-style: solid;
+	border-width: 1px;
+	color: #8B8989;
+	cursor: pointer;
+	height: 30px;
+}
+.button:hover/*подсветка кнопки выслать*/
+{
+	background:#DCDCDC;
+	border-color: #EEE9E9 #EEE9E9 #EEE9E9 #EEE9E9;
+	border-style: solid;
+	border-width: 1px;
+	color: #838B8B;
+}
+body
+{
+	background: #fff;
+	background-image: url(back.jpg);
+	color: #333;
+	font: 1em Arial,Helvetica,sans-serif;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+.head_top /*текст под меню */
+{
+	color: #0E3D5C;
+	font-size: 16px;
+	margin-left: 3px;
+}
+td
+{
+	font: 14px Arial,Helvetica,sans-serif;
+}
+a/*цвет шрифта на главной панели*/
+{
+	color: #39c;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.edit
+{
+	background: url(images/edit.png) no-repeat;
+	margin-left: 25px;
+}
+th
+{
+	font: bold 1em Arial,Helvetica,sans-serif;
+}
+table.table_menu/*стиль таблички*/
+{
+	background:#FFFFFF;
+	width: 800px;
+	border-radius : 10px;
+}
+td.border_left
+{
+	background: url(images/border.gif) repeat-y left;
+}
+td.border_right
+{
+	background: url(images/border.gif) repeat-y right;
+}
+td.border_top
+{
+	background: url(images/border.gif) repeat-x top;
+}
+td.border_bottom
+{
+	background: url(images/border.gif) repeat-x bottom;
+}
+td.padding
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#rounded-corner
+{
+	border-collapse: collapse;
+	margin-top: 7px;
+	text-align: left;
+	width: 500px;
+}
+#rounded-corner thead th.rounded-left
+{
+	background: #8FBAD6 url('images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-right
+{
+	background: #8FBAD6 url('images/right.png') right -1px no-repeat;
+}
+#rounded-corner th/*главная строчка таблицы под меню*/
+{
+	background:#8FBAD6;
+	color: #0E3D5C;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px;
+	text-align: center;
+}
+#rounded-corner td/*ячейки таблички под меню*/
+{
+	background: #FFFFFF;
+	border-top: 1px solid #fff;
+	color: #708090;
+	padding: 8px;
+	text-align: center;
+}
+#rounded-corner tfoot td.rounded-foot-left/*строчки таблички под меню*/
+{
+	background: #FFFFFF url('images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right/*строчки таблички под меню*/
+{
+	background: #FFFFFF url('images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td/*подветка строки(сер.)*/
+{
+	background: #D6E7EF;
+}
+#rounded-corner tbody td a,tbody th a
+{
+	background: transparent url(images/edit.png) no-repeat 0 50%;
+	color: #708090;
+	display: block;
+	font-weight: normal;
+	padding-left: 22px;
+}
+#rounded-corner tbody td a:hover,tbody th a:hover
+{
+	text-decoration: none;
+}
+#rounded-corner tfoot td a.add,tfoot th a.add
+{
+	background: transparent url(images/add.png) no-repeat 0 50%;
+	color: #708090;
+	display: block;
+	font-weight: normal;
+	padding-left: 22px;
+}
+#edit
+{
+	border: 1px solid #B0E0E6;/*#FFFFFF*/
+	margin: 5px;
+}
+#edit td/*строка высылания оценок*/
+{
+	background: #FFFFFF;
+}
+#edit tr.TableHead,th.TableHead/*текст сообщающий о высылании оценок*/
+{
+	background:  #B0E0E6;
+	color: #666;
+}
+#edit_in td/*окно редактирования*/
+{
+	background: #B0E0E6;
+	color: #708090;
+	padding: 5px;
+}
+
+#pageHeader {
+	font-family: caption;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#stepDesc {
+	font-family: caption;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.resultText, td.title {
+	font-family: caption;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+.errorText {
+	font-family: caption;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	color:red;
+	
+}
+
+.logItemName, .logItemResult {
+	font-family: serif;
+	font-weight: bold;
+}
